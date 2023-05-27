@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    the type of dataset uploaded has dimensions are :{{type|safe}} <br>
+    
+    {{ah|safe}}
+    <br>
+    the data_types of data_set uploaded are : {{types|safe}}
+    the shape of uploaded data is {{shape}} <br>
+    the info of dataset is : {{info|safe}}
+    <!--{{a|safe}} -->>the image is :
+    {% if a %}
+    
+    <img src="data:image/png;base64,{{a|safe}}" alt="">
+    {% endif %}
+    {% if b %}
+    
+    <img src="data:image/png;base64,{{b|safe}}" alt="">
+    {% endif %}
+    
+</body>
+</html>
