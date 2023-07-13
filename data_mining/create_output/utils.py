@@ -21,8 +21,8 @@ def get_plot(x,y):
     plt.title('Helo_diagram is')
     plt.plot(x,y)
     plt.xticks(rotation=45)
-    plt.xlabel('khotha')
-    plt.ylabel('kameena')
+    plt.xlabel('X Axis')
+    plt.ylabel('Y Axis')
     plt.tight_layout()
 
     graph=get_graph()
